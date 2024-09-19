@@ -1,0 +1,9 @@
+# Goal
+int64 target_number
+float64 period
+---
+# Request
+int64 reached_number
+---
+# Feedback (optional)
+int64 current_number

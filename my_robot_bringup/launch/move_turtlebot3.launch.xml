@@ -1,0 +1,12 @@
+<launch>
+    <set_env name = "TURTLEBOT3_MODEL" value = "waffle" />
+
+    <include file="$(find-pkg-share turtlebot3_gazebo)/launch/empty_world.launch.py" /> 
+    <!-- cd /opt/ros/humble/share/turtlebot3_gazebo/launch/empty_world.launch.py -->
+
+    <node pkg="my_turtle_bot" exec="move_turtlebot" />
+
+    <node pkg="lifecycle_py" exec="lifecycle_node_manager">
+        <param name="lifecycle_node_name" value="move_turtle_bot_3" />
+    </node>
+</launch>

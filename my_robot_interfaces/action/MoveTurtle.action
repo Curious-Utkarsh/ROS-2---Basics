@@ -1,0 +1,9 @@
+# Goal
+float32 linear_vel_x
+float32 angular_vel_z
+float64 duration_sec
+---
+# Request (Result)
+string message
+---
+# Feedback (optional)

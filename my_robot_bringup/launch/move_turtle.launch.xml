@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="turtlesim" exec="turtlesim_node" />
+
+    <node pkg="my_turtle_bot" exec="move_turtle_action_server" />
+
+    <node pkg="lifecycle_py" exec="lifecycle_node_manager">
+        <param name="lifecycle_node_name" value="moveturtle_action_server" />
+    </node>
+</launch>

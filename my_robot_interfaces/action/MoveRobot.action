@@ -1,0 +1,10 @@
+# Goal
+int64 position_to_go
+int64 velocity
+---
+# Request
+int64 reached_position
+string status
+---
+# Feedback (optional)
+int64 current_position
