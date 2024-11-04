@@ -67,7 +67,7 @@
         </plugin>
     </gazebo>
 
-    <gazebo reference="camera_link">
+    <!-- <gazebo reference="camera_link">
         <material>Gazebo/Blue</material>
         <sensor name="camera_sensor" type="camera">
             <pose>0 0 0 0 0 0</pose>
@@ -100,9 +100,9 @@
                 <frame_name>camera_link_optical</frame_name>
             </plugin>
         </sensor>
-    </gazebo>
+    </gazebo> -->
 
-   <!-- <gazebo reference="lidar_link">
+   <gazebo reference="lidar_link">
         <material>Gazebo/Yellow</material>
         <sensor name="gazebo_lidar" type="ray">
             <visualize>true</visualize>
@@ -136,6 +136,6 @@
                 </noise>
             </ray>
         </sensor>
-  </gazebo>  -->
+  </gazebo> 
 
 </robot>
